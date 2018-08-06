@@ -73,6 +73,6 @@ class Loader {
     }
 }
 
-new Loader().load(moment().add(-1, 'year'), 1).catch(error => {
+new Loader().load(moment().add(-1, 'year'), 60).catch(error => {
     console.log(error);
 });
